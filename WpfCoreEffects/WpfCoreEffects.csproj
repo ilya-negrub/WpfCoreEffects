@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <RuntimeIdentifier>win10-x64</RuntimeIdentifier>
+    <PublishSingleFile>true</PublishSingleFile>
+    <UseWPF>true</UseWPF>
+    
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Img\0.jpg" />
+    <None Remove="Img\1464080747173079104.jpg" />
+    <None Remove="Img\58476b75-5f6f-42fb-97ff-9b97f79124cd_jpg_730x1000_q85.jpg" />
+    <None Remove="Img\5de24294bad21ec99931f4c362354f22.jpg" />
+    <None Remove="Img\8af02462b1f0.jpg" />
+    <None Remove="Img\e34e4eab98f465ff678bc15d70057530.jpg" />
+    <None Remove="Img\islandiia-doroga-gory-oziora-fordy.jpg" />
+    <None Remove="Img\screen-3.jpg" />
+    <None Remove="Img\summer-images-1920x1080-18.jpg" />
+    <None Remove="Img\tmb_221067_337639.jpg" />
+    <None Remove="Magnify.ps" />
+    <None Remove="MagnifySmoothEffect.ps" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Img\0.jpg" />
+    <Resource Include="Img\1464080747173079104.jpg" />
+    <Resource Include="Img\58476b75-5f6f-42fb-97ff-9b97f79124cd_jpg_730x1000_q85.jpg" />
+    <Resource Include="Img\5de24294bad21ec99931f4c362354f22.jpg" />
+    <Resource Include="Img\8af02462b1f0.jpg" />
+    <Resource Include="Img\e34e4eab98f465ff678bc15d70057530.jpg" />
+    <Resource Include="Img\islandiia-doroga-gory-oziora-fordy.jpg" />
+    <Resource Include="Img\screen-3.jpg" />
+    <Resource Include="Img\summer-images-1920x1080-18.jpg" />
+    <Resource Include="Img\tmb_221067_337639.jpg" />
+    <Resource Include="Magnify.ps" />
+    <Resource Include="MagnifySmoothEffect.ps" />
+  </ItemGroup>
+
+</Project>
